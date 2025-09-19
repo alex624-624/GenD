@@ -1,7 +1,14 @@
-const WelcomeToGenD = document.getElementById('WelcomeToGenD')
-const EnterInfoButton = document.getElementById('EnterInfoButton')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GenD</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1 id="WelcomeToGenD">Bem-vindo à GenD</h1>
+    <button id="EnterInfoButton">Informações</button>
 
-
-EnterInfoButton.addEventListener('click', function() {
-    window.location.href = 'Info/Info.html';
-});
+    <script src="script.js"></script>
+</body>
+</html>
