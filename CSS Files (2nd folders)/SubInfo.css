@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  /* Smooth diagonal gradient stripes */
+  background: repeating-linear-gradient(
+    135deg,
+    #2e7d32,
+    #388e3c 40px,
+    #2e7d32 80px
+  );
+}
+
+.body-text {
+    max-width: 100ch;
+    line-height: 1.8;
+    margin: 0 auto;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#BackButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#BackButton:hover {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #578ac4ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}

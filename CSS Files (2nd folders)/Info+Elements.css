@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  /* Smooth diagonal gradient stripes */
+  background: repeating-linear-gradient(
+    135deg,
+    #2e7d32,
+    #388e3c 40px,
+    #2e7d32 80px
+  );
+}
+
+h2 {
+    color: greenyellow;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+button:not(#HomeButton) {
+    background-color: greenyellow;
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#HomeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
